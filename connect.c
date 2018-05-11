@@ -12,7 +12,6 @@ it is used to connect PLC
 #include <time.h>
 #include "reference.h"
 #include "message.h"
-#include "commands.h"
 
 SOCKET        HMI007;   /* defined in winsock2.h */
 byte sendMessageStr[100], SN1, SN2, SN3, SN4; /* message to be sent to server */
